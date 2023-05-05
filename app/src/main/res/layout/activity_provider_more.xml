@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".provider.provider_more"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ProviderMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Profile"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/more_design"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Customer_Report"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/more_design"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="32dp"
+            android:src="@drawable/report"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Report"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Payment"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/more_design"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="32dp"
+            android:src="@drawable/sales"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Sales"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/more_design"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/payment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sales"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Language"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/more_design"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/language"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Logout"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/more_design"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Logout"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

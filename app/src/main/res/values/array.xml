@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qty">
+        <item>0ml</item>
+        <item>250ml</item>
+        <item>500ml</item>
+        <item>750ml</item>
+        <item>1000ml</item>
+        <item>1250ml</item>
+        <item>1500ml</item>
+        <item>1750ml</item>
+        <item>2000ml</item>
+        <item>2250ml</item>
+        <item>2500ml</item>
+        <item>2750ml</item>
+        <item>3000ml</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149140636106",
+    "project_id": "doodhwala-57e2f",
+    "storage_bucket": "doodhwala-57e2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149140636106:android:096e63a794a35e20b6cf33",
+        "android_client_info": {
+          "package_name": "com.example.doodhwalatest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149140636106-jsf7uekdaab39iq1r6h41bv802htp98q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUw1I7hE8l-ltQrRslxCe1WBaOOa7fqn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149140636106-jsf7uekdaab39iq1r6h41bv802htp98q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

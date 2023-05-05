@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Enter Name</string>
+    <string name="Phone">Enter Phone Number</string>
+    <string name="Pincode">Enter Pincode</string>
+    <string name="Address">Eneter Address</string>
+    <string name="Area">Enter The Area</string>
+
+
+</resources>

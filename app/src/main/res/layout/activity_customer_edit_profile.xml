@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.customer_edit_profile"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/EditProfileToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:background="#EDE9E9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="332dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/editetext">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="332dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+
+            android:orientation="vertical"
+            android:background="@drawable/editetext">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pincode"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/Pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="number"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="332dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/editetext">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="308dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="@string/Update"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

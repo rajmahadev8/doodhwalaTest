@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/popup"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginRight="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buffelow"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Other"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/morning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Morning"
+                />
+            <RadioButton
+                android:id="@+id/evening"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="evening" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp">
+
+                <EditText
+
+                    android:id="@+id/moring_cow"
+                    android:layout_width="42dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/quantity"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/mornig_buffelow"
+                    android:layout_width="42dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/quantity"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/mornig_other"
+                    android:layout_width="42dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/quantity"
+                    android:layout_marginLeft="45dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp">
+
+                <EditText
+                    android:id="@+id/evening_cow"
+                    android:layout_width="42dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/quantity"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/evenig_buffelow"
+                    android:layout_width="42dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/quantity"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/eveninig_other"
+                    android:layout_width="42dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/quantity"
+                    android:layout_marginLeft="45dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/Accept"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:text="Accept"
+            android:background="@drawable/button"
+            android:textColor="@color/white" android:layout_marginRight="30dp"/>
+        <Button
+            android:id="@+id/Denied"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:text="Denied"
+            android:background="@drawable/button"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
+

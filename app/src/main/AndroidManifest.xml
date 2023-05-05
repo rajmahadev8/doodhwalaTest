@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+
+    <application
+        android:name=".MyApplication_OnlineTransfer"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true"
+        >
+        <activity
+            android:name=".provider.provider_profile"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".provider.provider_more"/>
+
+        <activity
+            android:name=".provider.provider_customer_report"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".provider.provider_more"/>
+        <activity
+            android:name=".provider.provider_sales"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".provider.provider_more"/>
+        <activity
+            android:name=".provider.provider_more"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".provider.provider_home"/>
+
+        <activity
+            android:name=".provider.provider_home"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"/>
+        <activity
+            android:name=".provider.provider_verification_page"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"/>
+        <activity
+            android:name=".customer.customer_edit_profile"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".customer.customer_profile"/>
+        <activity
+            android:name=".customer.customer_profile"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".customer.home_customer"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"/>
+        <activity
+            android:name=".customer.create_account_customer"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName=".asking_option"/>
+        <activity
+            android:name=".asking_option"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            />
+        <activity
+            android:name=".otpverification"
+            android:exported="false"
+            android:theme="@style/myTheme.Milkmantra"
+            android:parentActivityName="com.example.doodhwalatest.MainActivity"/>
+
+        <activity
+            android:name=".customer.home_customer"
+            android:exported="true"
+            android:theme="@style/myTheme.Milkmantra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
